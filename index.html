@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="home-section">
+            <h1 id="home-text">HOME</h1>
+            <div class="score-container">
+                <p id="home-score-text"></p>
+            </div>
+            <div class="btn-container">
+                <button class="point-btn" id="add-one-home" onclick="addOneHome()">+1</button>
+                <button class="point-btn" id="add-two-home" onclick="addTwoHome()">+2</button>
+                <button class="point-btn" id="add-three-home" onclick="addThreeHome()">+3</button>
+            </div>
+        </div>
+        <div class="away-section">
+            <h1 id="away-text">GUEST</h1>
+            <div class="score-container">
+                <p id="away-score-text"></p>
+            </div>
+            <div class="btn-container">
+                <button class="point-btn" id="add-one-away" onclick="addOneAway()">+1</button>
+                <button class="point-btn" id="add-two-away" onclick="addTwoAway()">+2</button>
+                <button class="point-btn" id="add-three-away" onclick="addThreeAway()">+3</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
